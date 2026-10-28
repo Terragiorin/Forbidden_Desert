@@ -256,17 +256,16 @@ set-jump: post_election
 @post_election
 on-arrival: {!
 // set congress proportion to votes
-Q.spd_r = Q.spd_votes;
-Q.z_r = Q.z_votes;
-Q.kpd_r = Q.kpd_votes;
-Q.ddp_r = Q.ddp_votes;
-Q.dvp_r = Q.dvp_votes;
-Q.dnvp_r = Q.dnvp_votes;
-Q.nsdap_r = Q.nsdap_votes;
+Q.ndp_r = Q.ndp_votes;
+Q.tpk_r = Q.tpk_votes;
+Q.unity_r = Q.unity_votes;
+Q.afk_r = Q.afk_votes;
+Q.pse_r = Q.pse_votes;
+Q.fnj_r = Q.fnj_votes;
 Q.other_r = Q.other_votes;
 
 // The largest party can only be the NSDAP or the SPD.
-Q.largest_party = 'SPD';
+Q.largest_party = 'NDP';
 if (Q.nsdap_r >= Q.spd_r && Q.nsdap_r >= Q.kpd_r) {
     Q.largest_party = 'NSDAP';
 }
