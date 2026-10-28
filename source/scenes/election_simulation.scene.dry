@@ -8,14 +8,14 @@ set-jump: post_election
 
 @1928
 on-arrival: {!
-Q.workers = 46; // industry and trade
-Q.old_middle = 13; // "old mittelstand"
-// 16.4 trade & commerce, 6.6 public and private services, 4.4 domestic help
-Q.new_middle = 14; // "new mittelstand"
-Q.rural = 25; // agriculture and forestry employment... but many of those are proletarians so...
-// source: https://surface.syr.edu/cgi/viewcontent.cgi?filename=3&article=1016&context=books&type=additional page 43, table 3.3
-Q.unemployed = 8.6;
-Q.catholics = 30;
+Q.workers = 30;            // industry, trade, logistics
+Q.middle_class = 22;       // salaried professionals, managers, civil-service-adjacent white collar
+Q.urban_cosmopolitan = 12; // educated urban professionals, culturalists, media/academia
+Q.rural = 14;              // agriculture, forestry, village communities
+Q.unemployed = 7;          // structurally unemployed + precariat
+Q.retired = 10;            // pensioners, retirees and disabled people
+Q.martian = 9;             // non-Terran Martian population
+Q.lunarian = 6;            // non-Terran Lunarian population
 
 Q.classes = ['workers', 'middle_class', 'urban_cosmopolitan', 'rural', 'unemployed', 'retired', 'martian', 'lunarian'];
 Q.parties = ['ndp', 'tpk', 'unity', 'afk', 'pse', 'fnj', 'other'];
