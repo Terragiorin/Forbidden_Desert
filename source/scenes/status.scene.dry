@@ -90,15 +90,13 @@ Economic growth: [+ economic_growth_2 +]%
 
 = Internal Factions of the SPD
 
-{!<span class="tooltip-text" title="The Left is interested in radical, transformative policies and cooperation with the KPD.">Left</span>!} strength: [+ left_strength : strength +], dissent: [+ left_dissent : dissent +]
+{!<span class="tooltip-text" title="The NDP's free-market modernizers, who believe the party's future lies in open markets, fiscal discipline, and socially liberal politics. They are the faction most comfortable with a deal with F&J or a Social Front that stays economically moderate.">Liberal</span>!} strength: [+ liberal_strength : strength +], dissent: [+ liberal_dissent : dissent +]
 
-{!<span class="tooltip-text" title="The Center is a faction of Center Marxists, between reform and revolution.">Center</span>!} strength: [+ center_strength : strength +], dissent: [+ center_dissent : dissent +]
+{!<span class="tooltip-text" title="The party's managerial core, pragmatists who believe the NDP's strength is its ability to govern competently and hold the center together, and who now find themselves blamed by everyone for the party's decline. They are not ideologically committed to anything except the party's survival and their own institutional position, which makes them flexible in negotiations but incapable of offering voters a story.">Center</span>!} strength: [+ center_strength : strength +], dissent: [+ center_dissent : dissent +]
 
-{!<span class="tooltip-text" title="Labor's goal is economic reform and benefits for organized workers.">Labor</span>!} strength: [+ labor_strength : strength +], dissent: [+ labor_dissent : dissent +]
+{!<span class="tooltip-text" title="The NDP's law-and-order, defense-hawk, culturally traditional faction. They are the faction most tempted by a deal with TPK.">Conservative</span>!} strength: [+ conservative_strength : strength +], dissent: [+ conservative_dissent : dissent +]
 
-{!<span class="tooltip-text" title="Reformists are pragmatic participants in government, and seek to expand the welfare state and defend democracy.">Reformist</span>!} strength: [+ reformist_strength : strength +], dissent: [+ reformist_dissent : dissent +]
-
-[? if neorevisionism > 0 : Neorevisionist strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +] ?]
+{!<span class="tooltip-text" title="A rump of liberal-social members: more redistributionist than the liberals, more culturally progressive than the centrists, but not left enough to be comfortable with even the mildest members from PSE. Progressives have spent years being tolerated rather than heard, and year after year kept bleeding their members to Unity! or running as Independents.">Progressive</span>!} strength: [+ progressive_strength : strength +], dissent: [+ progressive_dissent : dissent +]
 
 
 @paramilitaries
@@ -158,21 +156,17 @@ Q.socialism_disp = Math.round(Q.socialism);
 
 (if the election were to be held now):
 
-SPD: [+ spd_votes +]%
+NDP: [+ ndp_votes +]%
 
-[? if sapd_formed: SAPD: [+ sapd_votes +]% ?]
+TPK: [+ tpk_votes +]%
 
-Z + BVP: [+ z_votes +]%
+Unity!: [+ unity_votes +]%
 
-KPD: [+ kpd_votes +]%
+AfK: [+ afk_votes +]%
 
-[? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ ddp_votes +]%
+PSE: [+ pse_votes +]%
 
-DVP: [+ dvp_votes +]%
-
-DNVP: [+ dnvp_votes +]%
-
-NSDAP: [+ nsdap_votes +]%
+F&J: [+ fnj_votes +]%
 
 Others: [+ other_votes +]%
 

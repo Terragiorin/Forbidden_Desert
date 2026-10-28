@@ -60,18 +60,16 @@ Q.dissent = 0.05;
 Q.dissent_percent = 5;
 
 // factions
-Q.factions = ['left', 'center', 'labor', 'reformist', 'neorevisionist'];
+Q.factions = ['liberal', 'center', 'conservative', 'progressive'];
 // should this be normalized to 100%?
-Q.left_strength = 15;
-Q.left_dissent = 20;
-Q.center_strength = 30;
+Q.liberal_strength = 20;
+Q.liberal_dissent = 5;
+Q.center_strength = 10;
 Q.center_dissent = 0;
-Q.labor_strength = 25;
-Q.labor_dissent = 5;
-Q.reformist_strength = 25;
-Q.reformist_dissent = 5;
-Q.neorevisionist_strength = 5;
-Q.neorevisionist_dissent = 10;
+Q.conservative_strength = 30;
+Q.conservative_dissent = 5;
+Q.progressive_strength = 5;
+Q.progressive_dissent = 10;
 
 // secret events...
 Q.unions_independent = 0;
@@ -247,29 +245,29 @@ Q.parties = ['ndp', 'tpk', 'unity', 'afk', 'pse', 'fnj', 'other'];
 
 // Support for party by social group
 // they don't have to sum to 100 since the electoral calculations will be normalized.
-Q.workers_ndp = 18
-Q.workers_tpk = 22
-Q.workers_unity = 26
-Q.workers_afk = 14
-Q.workers_pse = 8
-Q.workers_fnj = 2
-Q.workers_other = 0
+Q.workers_ndp = 18;
+Q.workers_tpk = 22;
+Q.workers_unity = 26;
+Q.workers_afk = 14;
+Q.workers_pse = 8;
+Q.workers_fnj = 2;
+Q.workers_other = 0;
 
-Q.middle_class_ndp = 32
-Q.middle_class_tpk = 24
-Q.middle_class_unity = 14
-Q.middle_class_afk = 8
-Q.middle_class_pse = 3
-Q.middle_class_fnj = 7
-Q.middle_class_other = 2
+Q.middle_class_ndp = 32;
+Q.middle_class_tpk = 24;
+Q.middle_class_unity = 14;
+Q.middle_class_afk = 8;
+Q.middle_class_pse = 3;
+Q.middle_class_fnj = 7;
+Q.middle_class_other = 2;
 
-Q.urban_cosmopolitan_ndp = 30
-Q.urban_cosmopolitan_tpk = 6
-Q.urban_cosmopolitan_unity = 22
-Q.urban_cosmopolitan_afk = 6
-Q.urban_cosmopolitan_pse = 10
-Q.urban_cosmopolitan_fnj = 17
-Q.urban_cosmopolitan_other = 2
+Q.urban_cosmopolitan_ndp = 30;
+Q.urban_cosmopolitan_tpk = 6;
+Q.urban_cosmopolitan_unity = 22;
+Q.urban_cosmopolitan_afk = 6;
+Q.urban_cosmopolitan_pse = 10;
+Q.urban_cosmopolitan_fnj = 17;
+Q.urban_cosmopolitan_other = 2;
 
 Q.rural_ndp = 12;
 Q.rural_tpk = 40;
