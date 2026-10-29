@@ -7,7 +7,7 @@ set-jump: post_election
 - @1932: 1932 (July) historical scenario
 
 @98
-on-arrivel: {!
+on-arrival: {!
 Q.workers = 30;            // industry, trade, logistics
 Q.middle_class = 22;       // salaried professionals, managers, civil-service-adjacent white collar
 Q.urban_cosmopolitan = 12; // educated urban professionals, culturalists, media/academia
