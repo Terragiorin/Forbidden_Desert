@@ -386,11 +386,9 @@ Other: [+ other_r +]
 
 **Potential coalitions:**
 
-Weimar Coalition (SPD + Z + DDP): [+ weimar_coalition +]
+Unity! Toleration (NDP + Unity! toleration): [+ unity_toleration +]
 
-Grand Coalition (SPD + Z + BVP + DDP + DVP): [+ grand_coalition +]
+Terran Party Toleration (NDP + TPK toleration): [+ tpk_toleration +]
 
-Bourgeois Coalition (Z + BVP + DDP + DVP + Others): [+ bourgeois_coalition +]
-
-Right-wing Coalition (Z + BVP + DVP + Others + DNVP): [+ right_coalition +]
+Freedom and Justice Toleration (NDP + F&J toleration): [+ fnj_toleration +]
 

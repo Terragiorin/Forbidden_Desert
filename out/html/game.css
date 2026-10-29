@@ -555,37 +555,28 @@ table {
 }
 
 /* Styles for parties */
-.seat.kpd {
-    fill: #8B0000;
-}
-.seat.spd {
-    fill: #E3000F;
+.seat.ndp {
+    fill: #3A68CB;
     stroke: var(--border-color);
     stroke-width: 1.5px;
 }
-.seat.ddp {
-    fill: #DCCA4A;
+.seat.tpk {
+    fill: #0B1C7A;
 }
-.seat.z {
-    fill: #000;
+.seat.unity {
+    fill: #D1239F;
 }
-.seat.bvp {
-    fill: #69A2BE;
+.seat.afk {
+    fill: #E78316;
 }
-.seat.dvp {
-    fill: #D5AC27;
+.seat.pse {
+    fill: #dd0000;
+}
+.seat.fnj {
+    fill: #F4EB2A;
 }
 .seat.other {
-    fill: #909090;
-}
-.seat.dnvp {
-    fill: #3F7BC1;
-}
-.seat.nsdap {
-    fill: #954B00;
-}
-.seat.sapd {
-    fill: #C40000;
+    fill: #b0b0b0;
 }
 
 .tooltip-text {
