@@ -197,15 +197,15 @@ if (Q.newpeople_formed && Q.newpeople_r) {
         "legend": "NP",
         "name": "New People",
         "seats": Math.round(Q.newpeople_r*2.31),
-        });
+        }),
     }
 if (Q.kendridfirst_formed && Q.kendridfirst_r) {
     data.push({
-        "id": "kendridfirst"
+        "id": "kendridfirst",
         "legend": "KF",
         "name": "Kendrid First",
         "seats": Math.round(Q.kendridfirst_r*2.31),
-        });
+        }),
     }
 if (Q.mpp_formed && Q.mpp_r) {
     data.push({
@@ -213,44 +213,44 @@ if (Q.mpp_formed && Q.mpp_r) {
         "legend": "MPP",
         "name": "MPP",
         "seats": Math.round(Q.mpp_r*2.31),
-    })
-}
+        }),
+    }
 data = data.concat([
     {
         "id": "tpk",
         "legend": "TPK",
         "name": "TPK",
-        "seats": Math.round(Q.ndp_r*2.31),
+        "seats": Math.round(Q.tpk_r*2.31),
     },
     {
         "id": "unity",
         "legend": "Unity!",
         "name": "Unity!",
-        "seats": Math.round(Q.ndp_r*2.31),
+        "seats": Math.round(Q.unity_r*2.31),
     },
     {
         "id": "afk",
         "legend": "AfK",
         "name": "AfK",
-        "seats": Math.round(Q.ndp_r*2.31),
+        "seats": Math.round(Q.afk_r*2.31),
     },
     {
         "id": "pse",
         "legend": "PSE",
         "name": "PSE",
-        "seats": Math.round(Q.ndp_r*2.31),
+        "seats": Math.round(Q.pse_r*2.31),
     },
     {
         "id": "fnj",
         "legend": "F&J",
         "name": "F&J",
-        "seats": Math.round(Q.ndp_r*2.31),
+        "seats": Math.round(Q.fnj_r*2.31),
     },
     {
         "id": "other",
         "legend": "Other",
         "name": "Other",
-        "seats": Math.round(Q.ndp_r*2.31),
+        "seats": Math.round(Q.other_r*2.31),
     },
 ]);
 
