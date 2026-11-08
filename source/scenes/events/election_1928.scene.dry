@@ -198,7 +198,7 @@ if (Q.newpeople_formed && Q.newpeople_r) {
         "name": "New People",
         "seats": Math.round(Q.newpeople_r*2.31),
         });
-}
+    }
 if (Q.kendridfirst_formed && Q.kendridfirst_r) {
     data.push({
         "id": "kendridfirst"
@@ -209,7 +209,7 @@ if (Q.kendridfirst_formed && Q.kendridfirst_r) {
     }
 if (Q.mpp_formed && Q.mpp_r) {
     data.push({
-        "id": "mpp"
+        "id": "mpp",
         "legend": "MPP",
         "name": "MPP",
         "seats": Math.round(Q.mpp_r*2.31),
