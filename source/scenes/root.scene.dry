@@ -316,22 +316,22 @@ Q.lunarian_other = 5;
 // note: the Z figures also include the BVP (Bavarian people's party)
 // since they were ideologically similar, but they were separate parties.
 // They did not have a CDU/CSU-style relationship.
-Q.ndp_r = 120;
-Q.tpk_r = 50;
-Q.unity_r = 28;
-Q.afk_r = 15;
-Q.pse_r = 3;
-Q.fnj_r = 13;
-Q.other_r = 2;
+Q.ndp_r = 52;
+Q.tpk_r = 21.4;
+Q.unity_r = 12; 
+Q.afk_r = 7;
+Q.pse_r = 1.2;
+Q.fnj_r = 5.5;
+Q.other_r = 0.9;
 
 // diff from prev
-Q.old_ndp_r = 120;
-Q.old_tpk_r = 50;
-Q.old_unity_r = 28;
-Q.old_afk_r = 15;
-Q.old_pse_r = 3;
-Q.old_fnj_r = 13;
-Q.old_other_r = 2;
+Q.old_ndp_r = 57.5;
+Q.old_tpk_r = 19.6;
+Q.old_unity_r = 10;
+Q.old_afk_r = 6.1;
+Q.old_pse_r = 2.7;
+Q.old_fnj_r = 3.2;
+Q.old_other_r = 0.9;
 
 // sapd isn't formed yet, but it may be formed
 Q.sapd_r = 0;
