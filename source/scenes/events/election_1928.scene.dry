@@ -183,13 +183,23 @@ Q.election_records.push(election_result);
 !}
 on-departure: nazi_urgency = 1 if (nazi_urgency == 0 and nsdap_r >= 15)
 on-display: {!
-data = data.concat([
+data = [
     {
         "id": "ndp",
         "legend": "NDP",
         "name": "NDP",
         "seats": Math.round(Q.ndp_r*2.31),
-    },
+    }
+];
+if (Q.newpeople_formed && Q.newpeople_r) {
+    data.push({
+            "id": "newpeople",
+            "legend": "NP",
+            "name": "New People",
+            "seats": Math.round(Q.newpeople_r*2.31),
+            });
+}
+data = data.concat([
     {
         "id": "tpk",
         "legend": "TPK",
