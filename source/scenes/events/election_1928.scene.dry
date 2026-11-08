@@ -191,14 +191,31 @@ data = [
         "seats": Math.round(Q.ndp_r*2.31),
     }
 ];
+if (Q.newpeople_formed && Q.newpeople_r) {
+    data.push({
+        "id": "newpeople",
+        "legend": "NP",
+        "name": "New People",
+        "seats": Math.round(Q.newpeople_r*2.31),
+        });
+}
 
-data = data.concat([
-    {
+data.push({
         "id": "tpk",
         "legend": "TPK",
         "name": "TPK",
         "seats": Math.round(Q.tpk_r*2.31),
-    },
+});
+
+if (Q.kendridfirst_formed && Q.kendridfirst_r) {
+    data.push({
+        "id": "kendridfirst",
+        "legend": "KF",
+        "name": "Kendrid First",
+        "seats": Math.round(Q.kendridfirst_r*2.31),
+        });
+}
+data = data.concat([
     {
         "id": "unity",
         "legend": "Unity!",
