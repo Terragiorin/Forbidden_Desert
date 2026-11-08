@@ -310,12 +310,8 @@ Q.lunarian_fnj = 18;
 Q.lunarian_other = 5;
 
 
-// Current Reichstag composition
-// % of Reichstag in Jan 1928
-// source: wikipedia
-// note: the Z figures also include the BVP (Bavarian people's party)
-// since they were ideologically similar, but they were separate parties.
-// They did not have a CDU/CSU-style relationship.
+// Current National Assembly composition
+// % of Reichstag in Jan 97
 Q.ndp_r = 52;
 Q.tpk_r = 21.4;
 Q.unity_r = 12; 
@@ -333,9 +329,22 @@ Q.old_pse_r = 2.7;
 Q.old_fnj_r = 3.2;
 Q.old_other_r = 0.9;
 
-// sapd isn't formed yet, but it may be formed
-Q.sapd_r = 0;
-Q.old_sapd_r = 0;
+// National Assembly seats
+Q.ndp_seats = (ndp_r/100)*231
+Q.tpk_seats = (tpk_r/100)*231
+Q.unity_seats = (unity_r/100)*231
+Q.afk_seats = (afk_r/100)*231
+Q.pse_seats = (pse_r/100)*231
+Q.fnj_seats = (fnj_r/100)*231
+Q.other_seats = (other_r/100)*231
+
+// New People, Kendrid First and Martian People's Party isn't formed yet, but it may be formed
+Q.newpeople_r = 0;
+Q.old_newpeople_r = 0;
+Q.kendridfirst_r = 0;
+Q.old_kendridfirst_r = 0;
+Q.mpp_r = 0;
+Q.old_mpp_r = 0;
 
 // for changing the DDP's name to the DStP
 Q.ddp_name = "DDP";
