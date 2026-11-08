@@ -330,13 +330,13 @@ Q.old_fnj_r = 3.2;
 Q.old_other_r = 0.9;
 
 // National Assembly seats
-Q.ndp_seats = (ndp_r/100)*231
-Q.tpk_seats = (tpk_r/100)*231
-Q.unity_seats = (unity_r/100)*231
-Q.afk_seats = (afk_r/100)*231
-Q.pse_seats = (pse_r/100)*231
-Q.fnj_seats = (fnj_r/100)*231
-Q.other_seats = (other_r/100)*231
+Q.ndp_seats = (ndp_r/100)*231;
+Q.tpk_seats = (tpk_r/100)*231;
+Q.unity_seats = (unity_r/100)*231;
+Q.afk_seats = (afk_r/100)*231;
+Q.pse_seats = (pse_r/100)*231;
+Q.fnj_seats = (fnj_r/100)*231;
+Q.other_seats = (other_r/100)*231;
 
 // New People, Kendrid First and Martian People's Party isn't formed yet, but it may be formed
 Q.newpeople_r = 0;
